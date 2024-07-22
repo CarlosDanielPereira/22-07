@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+   
+<body>
+    <main>
+        <form action="#" method="post">
+            <h3>Envie uma mensagem preenchendo o formuláro abaixo</h3>
+            <label for="nome">Seu nome:</label><br>
+            <input class="preen" type="tel" id="nome" placeholder="Meu nome e sobrenome" required><br>
+
+            <label for="telefone">Seu telefone:</label><br>
+            <input class="preen" type="text" id="telefone" placeholder="(xx) xxxxxxxx" required><br>
+
+            <label for="email">Seu E-mail:</label><br>
+            <input class="preen" type="email"id="email"br placeholder="meuemail@exemplo.com.br" required><br> <br>
+
+            <label for="novidade">Deseja receber nossas novidade?</label><br>
+            <input type="radio" name="novidade" id="novidade" required>Sim
+            <input type="radio" name="novidade" id="novidade" required>Não <br><br>
+
+            <label for="msg">Sua mensagem:</label><br>
+            <textarea name="msg" id="msg" rows="10" cols="50" placeholder="Minha mensagem" required></textarea><br>
+            
+            <button>enviar</button>
+        </form>
+    </main>
+</body>
+</html>
